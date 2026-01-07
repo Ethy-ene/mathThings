@@ -30,7 +30,7 @@ If you call it `'some_random_name_lmao'`, then $u_{n+1}$ would be `'some_random_
 
 `'n'` is the name of the variable in the Expression Object, (for $u_n$, the variable is $n$). Defaults to `'n'`
 
-The third argument is the inferior born of the domain of definition of the sequence. $(u_n) \in \mathbb{N}$ so the sequence starts with $u_0$ and so the third argument is `0`. Defaults to `0`. 
+The third argument is the minimum and first value of n. $(n) \in \mathbb{N}$ so the sequence starts with $u_0$ and so the third argument is `0`. Defaults to `0`. 
 
 Then come the **definition step** :
 ```python
